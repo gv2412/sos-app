@@ -133,7 +133,7 @@ function ManageContacts() {
       <button onClick={shareLocation} className="share-button">Share Location</button>
       {messageSent && (
         <div className="message-sent">
-          <p>Message shared successfully!</p>
+          <p>location shared successfully!</p>
           <div className="tick-mark">✔</div>
         </div>
       )}
